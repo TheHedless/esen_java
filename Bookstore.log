@@ -1,0 +1,43 @@
+1745306248915:help
+1745306265168:create book
+1745306626240:quit
+1745306765539:create book
+1745306786947:create book --title valami --price 123 --publisher KiadoKFT --author Valaki
+1745307007099:help
+1745307012106:list books
+1745307054147:create book --title valami --price 123 --publisher valamiKFT --author Valaki
+1745307055432:list books
+1745307192081:help
+1745307212707:create book --title a --price 1 --author Ab --publisher AlaKFT
+1745307215695:list books
+1745909304064:update book --id 1 --title Az ez�stember
+1745909307652:list books
+1745909324319:delete book --id 5
+1745909832769:list books
+1745909838790:delete book --id 5
+1745909841149:list books
+1745910241868:help
+1745910562870:list book id --id 1
+1745911079418:help
+1745911088554:list bookstores
+1745911498270:help
+1745911503630:list bookstores
+1745911509118:delete bookstore --id 5
+1745911511471:list bookstores
+1746512992845:create bookstore --location Megyered --priceModifier 2 --moneyInCashRegister 10
+1746513025876:list bookstores
+1746513582173:create bookstore --location Megyed --priceModifier 2 --moneyInCashRegister 10
+1746513583683:list bookstores
+1746513624322:update bookstore --id 6 --location Mogyor�d
+1746513637659:list bookstore
+1746513639029:list bookstores
+1746513662084:update bookstore --id 6 --priceModifier 3.14
+1746513665624:list bookstores
+1746514879170:find price 1
+1746516088225:help
+1746516093506:find books
+1746516105259:find books title "Az aranyember"
+1746516187280:find books
+1746516203281:find books --title "Az aranyember"
+1746516206933:list books
+1746516222134:find books --author "Jókai Mór"

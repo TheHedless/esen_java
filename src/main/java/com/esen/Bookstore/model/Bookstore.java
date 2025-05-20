@@ -1,11 +1,22 @@
 package com.esen.Bookstore.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
-@Data
+import java.util.Map;
+
 @Entity
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 public class Bookstore {
+
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -13,4 +24,7 @@ public class Bookstore {
     private String location;
     private Double priceModifier;
     private Double moneyInCashRegister;
+    @ElementCollection(fetch = FetchType.EAGER)
+    @JsonIgnore
+    private Map<Book, Integer> inventory;
 }
