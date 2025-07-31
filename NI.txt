@@ -1,17 +1,6 @@
 go to cmd
 cd to the folder ()  (dir to list things)
 mvnw.cmd spring-boot:run
-id t nem kell írni mert generált érték csak létezzen
-look at the annotations, if builder is missing @Builder a classja elé
-list with optionals pl: create bookstore --location Debrecen --priceModifier 2 --moneyInCashRegister 10
-sorrend alapú felsorolás is jó? ha a tag sorrendben van írva lehet kihagyható a -- rész
-mostly xyHandler és xyService is the place you'll be
-
 
 application.properties be van írva a port
 localhost:3221/h2-console/
-jdbc:h2:mem:esen
-sa
-password
-
-rest api a controller->BookController alatt van
